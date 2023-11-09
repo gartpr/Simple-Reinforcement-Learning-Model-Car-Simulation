@@ -21,7 +21,7 @@ Before running the code, ensure you have the necessary dependencies installed. Y
 !pip install ray[rllib]
 !pip install tensorflow
 !pip install gym
-!pip install numpy
+!pip install numpy ```
 
 ## Gym Environment
 The Car_v0 Gym environment is defined in the notebook. It simulates a car's speed, which can vary from 0 to 100. The car starts at a random speed between 52 and 62 and has a fixed driving time of 60 seconds. The reward is based on the car's speed, with positive rewards given for speeds between 57 and 61.
